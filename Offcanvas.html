@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    <title>Offcanvas</title>
+</head>
+<body>
+    <h1>Ejemplo de Offcanvas</h1><br>
+
+    <div id="div_notifications">
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Foals
+          </a>
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Foals
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Foals</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Foals es una banda originaria de Oxford, Inglaterra. La banda publica con Transgressive Records en Europa y Sub Pop en los EE. UU. Publicaron un álbum completo—titulado Antidotes—el 24 de marzo de 2008 en el Reino Unido, y el 8 de abril en EE. UU. Iba a ser producido originalmente por Dave Sitek de TV on the Radio1​ pero la banda rechazó la mezcla final de Sitek y remezclaron el disco entero ellos mismos debido al excesivo uso del efecto reverb que le daba un sonido espacial.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Discos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">What Went Down</a></li>
+                  <li><a class="dropdown-item" href="#">Antidotes</a></li>
+                  <li><a class="dropdown-item" href="#">Holy Fire</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div id="div_notifications"> 
+        <h2>Offcanvas Arriba</h2><br> 
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Foals</button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel">Foals</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    Foals es una banda originaria de Oxford, Inglaterra. La banda publica con Transgressive Records en Europa y Sub Pop en los EE. UU. Publicaron un álbum completo—titulado Antidotes—el 24 de marzo de 2008 en el Reino Unido, y el 8 de abril en EE. UU. Iba a ser producido originalmente por Dave Sitek de TV on the Radio1​ pero la banda rechazó la mezcla final de Sitek y remezclaron el disco entero ellos mismos debido al excesivo uso del efecto reverb que le daba un sonido espacial...
+                </div>
+            </div>
+    </div>
+    <br>   
+    
+    <div id="div_notifications">
+        <h2>Offcanvas Derecha</h2><br>  
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Foals</button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Foals</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">
+                Foals es una banda originaria de Oxford, Inglaterra. La banda publica con Transgressive Records en Europa y Sub Pop en los EE. UU. Publicaron un álbum completo—titulado Antidotes—el 24 de marzo de 2008 en el Reino Unido, y el 8 de abril en EE. UU. Iba a ser producido originalmente por Dave Sitek de TV on the Radio1​ pero la banda rechazó la mezcla final de Sitek y remezclaron el disco entero ellos mismos debido al excesivo uso del efecto reverb que le daba un sonido espacial...
+            </div>
+            </div>
+    </div>
+    <br> 
+
+    <div id="div_notifications">
+        <h2>Offcanvas Abajo</h2><br>  
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Foals</button>
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body small">
+                Foals es una banda originaria de Oxford, Inglaterra. La banda publica con Transgressive Records en Europa y Sub Pop en los EE. UU. Publicaron un álbum completo—titulado Antidotes—el 24 de marzo de 2008 en el Reino Unido, y el 8 de abril en EE. UU. Iba a ser producido originalmente por Dave Sitek de TV on the Radio1​ pero la banda rechazó la mezcla final de Sitek y remezclaron el disco entero ellos mismos debido al excesivo uso del efecto reverb que le daba un sonido espacial...
+            </div>
+            </div>
+    </div>
+    <br> 
+      
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

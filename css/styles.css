@@ -1,0 +1,57 @@
+header {
+    background-color: #C8102E;
+}
+
+#container_header {
+    padding: 40px 20px 40px 20px;
+}
+
+.imagen_header {
+    width: 400px;
+    height: 340px;
+}
+
+.titulos {
+    color: white;
+}
+
+.row {
+    text-align: justify;
+}
+
+#row_miniaturas {
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin-top: 10px;
+}
+
+.col-8 {
+    align-self: center;
+}
+
+#col4_miniaturas {
+    padding: 20px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+#container_cuadros {
+    margin-top: 20px;
+}
+
+.imagen_miniatura {
+    width: -webkit-fill-available;
+    /*height: 240px;*/
+}
+
+.caption {
+    margin-top: 20px;
+}
+
+#ID_div_btns {
+    display: flex;
+}
+
+#ID_btns {
+    margin-right: 20px;
+}
+
+

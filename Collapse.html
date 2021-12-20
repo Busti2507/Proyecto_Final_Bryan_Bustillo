@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    <title>Collapse</title>
+</head>
+<body>
+    <h1>Ejemplo de Collapse</h1><br>
+
+    <div id="div_notifications">
+        <p>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Pokémon espada y Pokémon escudo
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Pokémon espada y Pokémon escudo
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Son videojuegos de rol con elementos de aventura, presentados en tercera persona, con perspectiva aérea. El jugador controla a un joven entrenador que va en una búsqueda de atrapar y entrenar a criaturas conocidas como Pokémon, y ganar batallas contra otros entrenadores.
+            </div>
+          </div>
+    </div>
+    <br>
+
+    <div id="div_notifications">
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Pokémon Diamante y Pokémon Perla
+            </button>
+        </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 300px;">
+                Son los primeros juegos de la cuarta generación de Pokémon y el primer dúo de videojuegos RPG para Nintendo DS. También llamados "Pokémon Edición Diamante" y "Pokémon Edición Perla", fueron lanzados en Japón en septiembre del 2006.
+              </div>
+            </div>
+          </div>
+        <br>    
+      
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
