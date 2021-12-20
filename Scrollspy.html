@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    <title>Scrollspy</title>
+</head>
+<body>
+    <h1>Ejemplo de Scrollspy</h1><br>
+
+    <div id="div_notifications">
+        <h2>Example in navbar</h2><br>
+        
+        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#">Foals Discos</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Antidotes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Total Life Forever</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Holy Fire</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">What Went Down</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Everything Not Saved Will Be Lost - Part 1</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading6">Everything Not Saved Will Be Lost - Part 2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h4 id="scrollspyHeading1">Antidotes</h4>
+            <p>Antidotes es el álbum debut de la banda británica de indie rock Foals. Fue lanzado al público el 24 de marzo de 2008 en el Reino Unido por Transgressive Records,11​ y el 8 de abril de 2008 en los Estados Unidos a través de Sub Pop. El álbum fue grabado en Stay Gold Studios en Brooklyn durante el verano de 2007, y fue producido por Dave Sitek, integrante de TV on the Radio. No obstante, Foals remezcló el álbum en Londres, argumentando que habían hecho que sonara como si hubiese sido "grabado en el Gran Cañón."</p>
+            <h4 id="scrollspyHeading2">Total Life Forever</h4>
+            <p>Total Life Forever es el segundo álbum de estudio de la banda de indie rock británico Foals, publicado el 10 de mayo de 2010 por Transgressive Records. Antes del lanzamiento del álbum, la banda describió el sonido del álbum «como el sueño de un moribundo águila». Fue producido por Luke Smith, y fue grabado en Svenska Grammofon Studion en Gotemburgo. En el momento de su lanzamiento, el álbum figuró en las listas de numerosos países de todo el mundo, incluyendo el número ocho en la lista UK Albums Chart.</p>
+            <h4 id="scrollspyHeading3">Holy Fire</h4>
+            <p>Holy Fire es el tercer álbum de estudio de la banda de rock británica Foals, lanzado el 11 de febrero de 2013 en el Reino Unido por Transgressive Records.​ El primer sencillo, "Inhaler" se lanzó por primera vez el 5 de noviembre de 2012 en el programa de radio británico Zane Lowe's BBC Radio 1, con el video musical que se estrenará más tarde ese mismo día.​ El segundo sencillo "My Number" debutó en el programa Later... with Jools Holland el 13 de noviembre de 2012.​ La canción tuvo su debut en la radio un mes más tarde, también en el programa de la BBC Radio 1 de Zane Lowe's. El vídeo musical se estrenó el 23 de enero de 2013.</p>
+            <h4 id="scrollspyHeading4">What Went Down</h4>
+            <p>What Went Down —en español: Lo que pasó— es el cuarto álbum de estudio de la banda británica de rock Foals, lanzado el 28 de agosto de 2015 a través Transgressive Records en Reino Unido. El álbum fue producido por James Ford, quien también ha trabajado con Klaxons, Arctic Monkeys y Florence and the machine. También es miembro de la banda Simian Mobile Disco. De acuerdo con el líder de Yannis Philippakis, está programado para ser su álbum más ruidoso y pesado hasta la fecha.</p>
+            <h4 id="scrollspyHeading5">Everything Not Saved Will Be Lost - Part 1</h4>
+            <p>Everything Not Saved Will Be Lost - Part 1 es el quinto álbum de estudio de la banda británica Foals, lanzado el 8 de marzo de 2019 a través de Warner Bros y Transgressive Records. El álbum es la primera parte de un proyecto de dos piezas, complementado por el sexto álbum de estudio de la banda, Everything Not Saved Will Be Lost - Part 2, a ser publicado en el cuarto trimestre de 2019. Este es el primer álbum del que no participa el bajista y miembro fundador Walter Gervers desde que dejó el grupo de manera amistosa en 2018.</p>
+            <h4 id="scrollspyHeading6">Everything Not Saved Will Be Lost - Part 2</h4>
+            <p>Everything Not Saved Will Be Lost - Part 2 es el sexto álbum de estudio de la banda británica de indie rock Foals, publicado el 18 de octubre de 2019 por las compañías discográficas Warner Records y Transgressive Records. Es la segunda mitad de un proyecto de dos partes, que comenzó con Everything Not Saved Will Be Lost - Part 1, lanzado el 8 de marzo del mismo año.</p>
+          </div>
+    </div>
+    <br>
+
+    <div id="div_notifications">
+        <h2>Example with list-group</h2><br>
+        <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Antidotes</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Total Life Forever</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Holy Fire</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">What Went Down</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Everything Not Saved Will Be Lost - Part 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Everything Not Saved Will Be Lost - Part 2</a>
+          </div>
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Antidotes</h4>
+            <p>Antidotes es el álbum debut de la banda británica de indie rock Foals. Fue lanzado al público el 24 de marzo de 2008 en el Reino Unido por Transgressive Records,11​ y el 8 de abril de 2008 en los Estados Unidos a través de Sub Pop. El álbum fue grabado en Stay Gold Studios en Brooklyn durante el verano de 2007, y fue producido por Dave Sitek, integrante de TV on the Radio. No obstante, Foals remezcló el álbum en Londres, argumentando que habían hecho que sonara como si hubiese sido "grabado en el Gran Cañón."</p>
+            <h4 id="list-item-2">Total Life Forever</h4>
+            <p>Total Life Forever es el segundo álbum de estudio de la banda de indie rock británico Foals, publicado el 10 de mayo de 2010 por Transgressive Records. Antes del lanzamiento del álbum, la banda describió el sonido del álbum «como el sueño de un moribundo águila». Fue producido por Luke Smith, y fue grabado en Svenska Grammofon Studion en Gotemburgo. En el momento de su lanzamiento, el álbum figuró en las listas de numerosos países de todo el mundo, incluyendo el número ocho en la lista UK Albums Chart.</p>
+            <h4 id="list-item-3">Holy Fire</h4>
+            <p>Holy Fire es el tercer álbum de estudio de la banda de rock británica Foals, lanzado el 11 de febrero de 2013 en el Reino Unido por Transgressive Records.​ El primer sencillo, "Inhaler" se lanzó por primera vez el 5 de noviembre de 2012 en el programa de radio británico Zane Lowe's BBC Radio 1, con el video musical que se estrenará más tarde ese mismo día.​ El segundo sencillo "My Number" debutó en el programa Later... with Jools Holland el 13 de noviembre de 2012.​ La canción tuvo su debut en la radio un mes más tarde, también en el programa de la BBC Radio 1 de Zane Lowe's. El vídeo musical se estrenó el 23 de enero de 2013.</p>
+            <h4 id="list-item-4">What Went Down</h4>
+            <p>What Went Down —en español: Lo que pasó— es el cuarto álbum de estudio de la banda británica de rock Foals, lanzado el 28 de agosto de 2015 a través Transgressive Records en Reino Unido. El álbum fue producido por James Ford, quien también ha trabajado con Klaxons, Arctic Monkeys y Florence and the machine. También es miembro de la banda Simian Mobile Disco. De acuerdo con el líder de Yannis Philippakis, está programado para ser su álbum más ruidoso y pesado hasta la fecha.</p>
+            <h4 id="list-item-5">Everything Not Saved Will Be Lost - Part 1</h4>
+            <p>Everything Not Saved Will Be Lost - Part 1 es el quinto álbum de estudio de la banda británica Foals, lanzado el 8 de marzo de 2019 a través de Warner Bros y Transgressive Records. El álbum es la primera parte de un proyecto de dos piezas, complementado por el sexto álbum de estudio de la banda, Everything Not Saved Will Be Lost - Part 2, a ser publicado en el cuarto trimestre de 2019. Este es el primer álbum del que no participa el bajista y miembro fundador Walter Gervers desde que dejó el grupo de manera amistosa en 2018.</p>
+            <h4 id="list-item-6">Everything Not Saved Will Be Lost - Part 2</h4>
+            <p>Everything Not Saved Will Be Lost - Part 2 es el sexto álbum de estudio de la banda británica de indie rock Foals, publicado el 18 de octubre de 2019 por las compañías discográficas Warner Records y Transgressive Records. Es la segunda mitad de un proyecto de dos partes, que comenzó con Everything Not Saved Will Be Lost - Part 1, lanzado el 8 de marzo del mismo año.</p>
+        </div>
+    </div>
+    <br>
+
+      
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
